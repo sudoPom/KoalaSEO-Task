@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./static/css/main.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="https://kit.fontawesome.com/167b44c09c.js" crossorigin="anonymous"></script>
+</head>
+<body style="padding: 0;margin: 0;">
+	<div style="height: 100px;width: calc(100% - 40px);background-color: white;display: flex;justify-content: space-between;align-items: center;margin: 0px 20px;">
+		<div style="justify-content: center;align-items: center;display:flex;cursor: pointer;" onclick="window.location.href='/'">
+			<img src="./static/imgs/logo.png" height="60">
+			<img src="./static/imgs/logoText.png" height="40">
+		</div>
+	</div>
+	<div style="height: 600px;display: flex;align-items: center;">
+		<div style="height: 100%;width: 40%;background-color: #e5e5e5;display: flex;justify-content: center;align-items: center;">
+		</div>
+		<div style="height: 100%;width: 60%;background-image: url('./static/imgs/grooming.jpg');background-repeat: no-repeat;background-size: cover;background-position: center;" class="hero_img">
+		</div>
+		<div style="position: absolute;left: 10%;z-index: 2;transform: translateX(40px);">
+			<p style="color: #29b462;font-size: 4rem;font-family: 'Caveat', cursive;margin-bottom: 0px;">Grooming, done right.</p>
+			<p style="color: #ee957f;font-family: 'Caveat', cursive;font-size: 2rem;margin-top: 5px;">Voted birmingham's best salon 2020</p>
+			<div style="padding: 15px;border:2px solid #ee957f;width: fit-content;cursor: pointer;color: #ee957f" class="btn">
+				<p style="margin: 0;font-family: 'Yomogi', cursive;font-size: 1.4rem">Book an App.</p>
+			</div>
+		</div>
+	</div>
+	<div style="display: flex;justify-content: center;align-items: center;padding: 100px 40px;flex-direction: column;max-width: 1000px;margin: auto;margin-bottom: 100px;">
+		<p style="font-family: 'Arvo', serif;font-size: 3rem;" class="wiggle">About Us</p>
+		<p style="font-family: 'Arvo', serif;font-size: 1.3rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+			molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+			numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+			optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+			obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+			nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+			tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit.
+		</p>
+	</div>
+
+	<div style="background-image: url('http://pets.axiomthemes.com/wp-content/uploads/2015/02/linepattern.png');height: 700px;background-color: #EE957F;" class="pricing">
+		<p style="font-family: 'Arvo', serif;font-size: 3rem;" class="wiggle">Pricing</p>
+		<div style="display: flex;align-items: center;">
+			<div id="pricing-container-small"></div>
+			<div id="pricing-container-large"></div>
+			<div id="pricing-container-small"></div>
+		</div>
+	</div>
+
+	<div style="display: flex;justify-content: center;align-items: center;padding: 100px 40px;flex-direction: column;max-width: 1000px;margin: auto;">
+		<p style="font-family: 'Arvo', serif;font-size: 3rem;" class="wiggle">Gallery</p>
+		<div style="display: flex;max-width: 1000px;justify-content: center;align-items: center;flex-wrap: wrap;margin: auto;">
+			<img src="./static/imgs/dog1.jpg" style="height: 400px;width: 600px; padding: 10px;">
+			<img src="./static/imgs/dog2.jpg" style="height: 366px;width: 274px; padding: 10px;">
+			<img src="./static/imgs/dog3.jpg" style="height: 170px;width: 256px; padding: 10px;">
+			<img src="./static/imgs/dog4.jpg" style="height: 600px;width: 400px; padding: 10px;">
+			<img src="./static/imgs/dog5.jpg" style="height:600px; padding: 10px;" onclick="document.getElementById('secret').style.display='flex'">
+		</div>
+	</div>
+
+	<div style="display: flex;justify-content: center;align-items: center;padding: 100px 40px;flex-direction: column;max-width: 1000px;margin: auto;">
+		<p style="font-family: 'Arvo', serif;font-size: 3rem;" class="wiggle">Contact Us</p>
+		<div style="display: flex;width: 100%;justify-content: space-around;align-items: center;">
+			<p style="font-family: 'Arvo', serif;font-size: 1.3rem;"><i class="fas fa-phone"></i> 01234 567 890</p>
+			<p style="font-family: 'Arvo', serif;font-size: 1.3rem;"><i class="fas fa-envelope"></i> groom@gmail.com</p>
+			<p style="font-family: 'Arvo', serif;font-size: 1.3rem;"><i class="fab fa-instagram"></i> groomgroomers</p>
+		</div>
+	</div>
+
+	<div style="height: 80px;width: calc(100% - 80px);background-color: #404249;display: flex;padding: 0px 40px;align-items: center;color: white;font-family: 'Arvo', serif;">
+		Groom © 2021 All Rights Reserved
+	</div>
+	<p aria-hidden="true" style="display: none;" id="secret">You found the secret! Use code smartdoggo at checkout for 30% off</p>
+</body>
+</html>
