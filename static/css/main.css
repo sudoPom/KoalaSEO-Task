@@ -88,6 +88,7 @@
 	margin: 10px;
 	border-radius: 5px;
 	font-family: 'Arvo';
+	font-size: 12;
 }
 
 #pricing-container-large{
@@ -97,4 +98,5 @@
 	margin: 10px;
 	border-radius: 5px;
 	font-family: 'Arvo';
+	font-size: 14;
 }
